@@ -1,0 +1,1 @@
+// JavaScript for language switching and sliders
