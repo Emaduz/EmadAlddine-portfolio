@@ -1,1 +1,1 @@
-// JavaScript for language switching and sliders
+console.log("موقع عمادالدين يعمل 👨‍💻");
