@@ -1,1 +1,70 @@
-/* Site styling */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fdfaf5;
+  color: #222;
+  margin: 0;
+  direction: rtl;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+
+.hero {
+  background: linear-gradient(to bottom right, #a52a2a, #ffddcc);
+  color: white;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0.5rem 0;
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 1rem;
+  background: white;
+  color: #a52a2a;
+  padding: 0.7rem 1.5rem;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.gallery {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.gallery .item {
+  width: 300px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.lang-switch {
+  margin-top: 1rem;
+}
+
+.lang-switch a {
+  color: #fff;
+  text-decoration: underline;
+}
