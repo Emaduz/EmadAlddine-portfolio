@@ -1,5 +1,12 @@
+@font-face {
+  font-family: 'Year of Camel';
+  src: url('https://arbfonts.com//wp-content/fonts/new-arabic-fonts//TheYearofTheCamel-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Year of Camel', sans-serif;
   background: #fdfaf5;
   color: #222;
   margin: 0;
